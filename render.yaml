@@ -4,7 +4,6 @@ services:
     name: artisanx-ai-backend
     env: node
     region: singapore
-    nodeVersion: 22
     buildCommand: |
       cd hepzi-main/backend && npm install
     startCommand: |
@@ -23,7 +22,7 @@ services:
         value: HelloartisanXai@gmail.com
       - key: TO_EMAIL
         value: HelloartisanXai@gmail.com
-
+      
       # Server Configuration
       - key: PORT
         value: 10000
@@ -32,7 +31,7 @@ services:
       - key: NODE_ENV
         value: production
 
-      # CORS Configuration (will be updated after frontend deployment)
+      # CORS (will update after frontend deployment)
       - key: CORS_ORIGINS
         value: http://localhost:3000,http://localhost:3001
     healthCheckPath: /api/health
