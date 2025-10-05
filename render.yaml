@@ -4,7 +4,7 @@ services:
     name: artisanx-ai-backend
     env: node
     region: singapore
-    nodeVersion: 22.16.0
+    nodeVersion: 22
     buildCommand: |
       cd hepzi-main/backend && npm install
     startCommand: |
