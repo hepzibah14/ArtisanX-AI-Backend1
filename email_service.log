@@ -1,0 +1,83 @@
+2025-10-03 14:45:59,110 - watchfiles.main - INFO - 4 changes detected
+2025-10-03 14:46:00,178 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:46:00,690 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:53:06,561 - watchfiles.main - INFO - 5 changes detected
+2025-10-03 14:53:10,197 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:53:10,764 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:37,280 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:38,375 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:47,983 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:48,964 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:54,635 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:54:55,565 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:55:01,315 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:55:02,313 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:55:10,060 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:55:10,922 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:56:12,471 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:58:54,982 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 14:58:56,597 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 14:58:56,805 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 14:58:57,659 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 14:58:58,956 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 14:58:59,174 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 14:58:59,260 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:58:59,274 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 14:59:00,317 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:59:00,553 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 14:59:00,764 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 14:59:00,930 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:59:05,329 - watchfiles.main - INFO - 1 change detected
+2025-10-03 14:59:05,934 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:00:54,740 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:00:55,720 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:03:42,388 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:03:43,472 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:03:52,861 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:03:53,801 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:04:18,985 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 15:04:20,270 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 15:04:20,477 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 15:04:21,537 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 15:04:23,005 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 15:04:23,231 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 15:04:23,322 - email_service - INFO - [INFO] Testing SMTP connection to smtp.gmail.com:587
+2025-10-03 15:04:23,334 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:04:24,356 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:04:24,710 - email_service - INFO - [SUCCESS] SMTP connection and authentication successful
+2025-10-03 15:04:24,924 - email_service - INFO - [SUCCESS] Email service initialized successfully
+2025-10-03 15:04:25,021 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:04:56,772 - main - INFO -  New contact form submission from test1@gmail.com
+2025-10-03 15:04:56,773 - email_service - INFO - [INFO] Processing contact form submission from test1@gmail.com
+2025-10-03 15:04:56,773 - email_service - INFO - [INFO] Attempting to send email (attempt 1/3)
+2025-10-03 15:04:59,731 - email_service - INFO - [SUCCESS] Email sent successfully to HelloartisanXai@gmail.com
+2025-10-03 15:04:59,947 - email_service - INFO - [SUCCESS] Successfully sent contact email to HelloartisanXai@gmail.com
+2025-10-03 15:04:59,947 - email_service - INFO - [INFO] Preparing auto-reply for test1@gmail.com
+2025-10-03 15:04:59,947 - email_service - ERROR - [ERROR] Error in send_auto_reply: name 'year' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\ArtisanX-AI\hepzi-main\backend\email_service.py", line 718, in send_auto_reply
+    &copy; {year} ArtisanX AI. All rights reserved.<br>
+            ^^^^
+NameError: name 'year' is not defined
+2025-10-03 15:04:59,953 - main - WARNING -  Failed to send auto-reply: [ERROR] Error in send_auto_reply: name 'year' is not defined
+2025-10-03 15:04:59,953 - main - INFO -  Successfully processed contact from test1@gmail.com
+2025-10-03 15:13:36,049 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:13:37,098 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:13:44,229 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:13:45,313 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:14:13,221 - watchfiles.main - INFO - 1 change detected
+2025-10-03 15:14:50,696 - watchfiles.main - INFO - 1 change detected
+2025-10-03 16:49:06,067 - main - INFO -  New contact form submission from admin@crmspices.in
+2025-10-03 16:49:06,068 - email_service - INFO - [INFO] Processing contact form submission from admin@crmspices.in
+2025-10-03 16:49:06,069 - email_service - INFO - [INFO] Attempting to send email (attempt 1/3)
+2025-10-03 16:49:09,158 - email_service - INFO - [SUCCESS] Email sent successfully to HelloartisanXai@gmail.com
+2025-10-03 16:49:09,411 - email_service - INFO - [SUCCESS] Successfully sent contact email to HelloartisanXai@gmail.com
+2025-10-03 16:49:09,412 - email_service - INFO - [INFO] Preparing auto-reply for admin@crmspices.in
+2025-10-03 16:49:09,412 - email_service - ERROR - [ERROR] Error in send_auto_reply: name 'year' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\ArtisanX-AI\hepzi-main\backend\email_service.py", line 718, in send_auto_reply
+    <div class="footer">
+                    ^^^^
+NameError: name 'year' is not defined
+2025-10-03 16:49:09,417 - main - WARNING -  Failed to send auto-reply: [ERROR] Error in send_auto_reply: name 'year' is not defined
+2025-10-03 16:49:09,417 - main - INFO -  Successfully processed contact from admin@crmspices.in

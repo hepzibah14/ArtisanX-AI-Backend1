@@ -1,0 +1,38 @@
+services:
+  # Backend API Service (Node.js Express)
+  - type: web
+    name: artisanx-ai-backend
+    env: node
+    region: singapore
+    nodeVersion: 22.16.0
+    buildCommand: |
+      cd hepzi-main/backend && npm install
+    startCommand: |
+      cd hepzi-main/backend && npm start
+    envVars:
+      # Email Configuration (SMTP)
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: 587
+      - key: SMTP_EMAIL
+        value: HelloartisanXai@gmail.com
+      - key: SMTP_PASSWORD
+        fromSecret: gmail-app-password
+      - key: FROM_EMAIL
+        value: HelloartisanXai@gmail.com
+      - key: TO_EMAIL
+        value: HelloartisanXai@gmail.com
+
+      # Server Configuration
+      - key: PORT
+        value: 10000
+      - key: ENVIRONMENT
+        value: production
+      - key: NODE_ENV
+        value: production
+
+      # CORS Configuration (will be updated after frontend deployment)
+      - key: CORS_ORIGINS
+        value: http://localhost:3000,http://localhost:3001
+    healthCheckPath: /api/health
